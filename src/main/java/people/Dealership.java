@@ -16,6 +16,11 @@ public class Dealership {
         this.vehiclesForSale = new ArrayList<>();
     }
 
+    // EXTENSIONS:
+    // Allow dealership to buy vehicles
+    // Allow Dealerships to sell vehicles to customers.
+    // Allow dealership to repair vehicles. This should take the cost from the dealer and add back to value of vehicle.
+
     public String getName() {
         return name;
     }

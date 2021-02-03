@@ -16,6 +16,8 @@ public class Customer {
         this.vehicles = new ArrayList<>();
     }
 
+    // EXTENSION: Allow a customer to buy a vehicle.
+
     public String getName() {
         return name;
     }
